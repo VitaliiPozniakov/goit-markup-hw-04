@@ -66,6 +66,10 @@ img {
   list-style: none;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /* Social-icon */
 
 .social-list {
@@ -94,17 +98,15 @@ img {
 
 .social-icon {
   fill: currentColor;
+
+  width: 20px;
+  height: 20px;
 }
 
 .social-link:hover,
 .social-lin:focus {
   background-color: var(--accent-color);
   color: var(--primari-white-color);
-}
-
-.instagram {
-  width: 20px;
-  height: 20px;
 }
 
 .twitter {
@@ -114,11 +116,6 @@ img {
 
 .facebook {
   width: 10px;
-  height: 20px;
-}
-
-.linkedin {
-  width: 20px;
   height: 20px;
 }
 
@@ -430,7 +427,7 @@ img {
   justify-content: space-between;
 }
 
-.client-items {
+.client-link {
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-client-color);
@@ -438,9 +435,17 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--primary-icon-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .client-icon {
+  fill: currentColor;
 }
 
 .client-1 {
@@ -530,6 +535,16 @@ img {
 
 .footer-social {
   margin-left: 87px;
+}
+
+.footer-social-link {
+  background-color: var(--primary-icon-color);
+  color: var(--primari-white-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* Стили для portfolio.html */
