@@ -97,10 +97,10 @@ img {
 }
 
 .social-icon {
-  fill: currentColor;
-
   width: 20px;
   height: 20px;
+
+  fill: currentColor;
 }
 
 .social-link:hover,
@@ -326,7 +326,19 @@ img {
   margin-right: 50px;
 }
 
-.feature-item::before {
+.feature-icon-thumb {
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-background-color-light);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Иконки можно как фон задать, если они не интерактивные 
+/* .feature-item::before {
   content: '';
   display: block;
   height: 120px;
@@ -356,7 +368,7 @@ img {
   background-image: url(../images/features-astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -446,36 +458,6 @@ img {
 
 .client-icon {
   fill: currentColor;
-}
-
-.client-1 {
-  width: 41px;
-  height: 47px;
-}
-
-.client-2 {
-  width: 40px;
-  height: 52px;
-}
-
-.client-3 {
-  width: 43px;
-  height: 41px;
-}
-
-.client-4 {
-  width: 84px;
-  height: 41px;
-}
-
-.client-5 {
-  width: 63px;
-  height: 45px;
-}
-
-.client-6 {
-  width: 94px;
-  height: 44px;
 }
 
 /* Footer  */
