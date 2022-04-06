@@ -640,6 +640,9 @@ img {
 
 .card-content {
   padding-top: 20px;
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 
 .cards-item .title {
@@ -650,14 +653,6 @@ img {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-}
-
-.card-thumbs {
-  margin-bottom: 20px;
-}
-
-.cards-item {
-  border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .cards-item:hover,
