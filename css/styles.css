@@ -12,6 +12,8 @@
   --hero-gradient: rgba(47, 48, 58, 0.4);
   --border-client-color: rgba(175, 177, 184, 1);
   --linear-gradietn-hero-color: rgba(47, 48, 58, 0.4);
+  --primary-icon-color: #afb1b8;
+  --background-icon-color: ;
 }
 
 /* Палитра:
@@ -62,6 +64,53 @@ img {
   margin: 0px;
 
   list-style: none;
+}
+
+/* Social-icon */
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: #2196f3;
+  border: 1px solid red;
+}
+
+.instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.twitter {
+  width: 20px;
+  height: 16px;
+}
+
+.facebook {
+  width: 10px;
+  height: 20px;
+}
+
+.linkedin {
+  width: 20px;
+  height: 20px;
 }
 
 /* Header */
@@ -124,6 +173,15 @@ img {
   display: flex;
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -155,6 +213,12 @@ img {
 
 .contacts-nav .item:not(:last-child) {
   margin-right: 50px;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
 /* Аналогичные варианты предыдущего селектора */
@@ -338,9 +402,11 @@ img {
   text-align: center;
 }
 
-.team-list .text {
+.team-item .text {
+  margin-bottom: 16px;
+
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -355,15 +421,56 @@ img {
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-client-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-icon {
+}
+
+.client-1 {
+  width: 41px;
+  height: 47px;
+}
+
+.client-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.client-3 {
+  width: 43px;
+  height: 41px;
+}
+
+.client-4 {
+  width: 84px;
+  height: 41px;
+}
+
+.client-5 {
+  width: 63px;
+  height: 45px;
+}
+
+.client-6 {
+  width: 94px;
+  height: 44px;
 }
 
 /* Footer  */
 
-.footer {
+.footer-main {
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: var(--secondary-background-color-dark);
+}
+
+.footer.container {
+  display: flex;
 }
 
 .contact-list .adress {
@@ -396,6 +503,20 @@ img {
 
 .contact-list {
   margin-top: 20px;
+}
+
+.social-text {
+  margin-bottom: 20px;
+
+  color: var(--primari-white-color);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-social {
+  margin-left: 87px;
 }
 
 /* Стили для portfolio.html */
