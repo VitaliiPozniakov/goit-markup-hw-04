@@ -333,7 +333,7 @@ img {
 }
 
 .feature-item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .feature-icon-thumb {
@@ -380,7 +380,7 @@ img {
   background-position: center;
 } */
 
-.feature-list .title {
+.feature-item .title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
@@ -388,8 +388,12 @@ img {
   text-transform: uppercase;
 }
 
-.feature-list .text {
+.feature-item .text {
   line-height: 1.7;
+}
+
+.feature-item .feature-text {
+  width: 270px;
 }
 
 /*----------------------------- Activities -----------------------------*/
@@ -429,8 +433,8 @@ img {
   background-color: var(--primari-white-color);
 }
 
-.img-team {
-  margin-bottom: 30px;
+.team-content {
+  padding: 30px 32px;
 }
 
 .team-list .title {
