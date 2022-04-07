@@ -13,7 +13,7 @@
   --border-client-color: rgba(175, 177, 184, 1);
   --linear-gradient-hero-color: rgba(47, 48, 58, 0.4);
   --primary-icon-color: #afb1b8;
-  --background-icon-color: ;
+  --background-icon-footer-color: rgba(255, 255, 255, 0.1);
 }
 
 /*----------------------------- Палитра:-----------------------------
@@ -533,7 +533,7 @@ img {
 }
 
 .footer-social-link {
-  background-color: var(--primary-icon-color);
+  background-color: var(--background-icon-footer-color);
   color: var(--primari-white-color);
 }
 
