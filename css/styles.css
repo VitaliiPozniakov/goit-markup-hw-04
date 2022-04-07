@@ -11,7 +11,7 @@
   --border-cards-color: rgba(238, 238, 238, 100%);
   --hero-gradient: rgba(47, 48, 58, 0.4);
   --border-client-color: rgba(175, 177, 184, 1);
-  --linear-gradietn-hero-color: rgba(47, 48, 58, 0.4);
+  --linear-gradient-hero-color: rgba(47, 48, 58, 0.4);
   --primary-icon-color: #afb1b8;
   --background-icon-color: ;
 }
@@ -291,8 +291,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-      var(--linear-gradietn-hero-color),
-      var(--linear-gradietn-hero-color)
+      var(--linear-gradient-hero-color),
+      var(--linear-gradient-hero-color)
     ),
     url('../images/bcg-hero.jpg');
   background-clip: padding-box;
