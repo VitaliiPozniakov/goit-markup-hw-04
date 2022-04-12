@@ -213,6 +213,8 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms var(--timing-function);
 }
 .site-nav .link:focus,
 .site-nav .link:hover {
@@ -242,6 +244,8 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .contact-item .link:focus,
